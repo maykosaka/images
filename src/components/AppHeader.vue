@@ -1,7 +1,7 @@
 <template>
     <div class="ui secondary pointing menu">
         <a href="/" class="active item">
-        Image Storage
+        Image Storage!
         </a>
     </div>
 </template>
