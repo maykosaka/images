@@ -17,7 +17,7 @@ const actions = {
         const queryString = qs.parse(hash.replace('#', ''));
 
         commit('setToken', queryString.access_token);
-        window.localStorage.setItem('imgur_token', query.access_token);
+        window.localStorage.setItem('imgur_token', queryString.access_token);
     },
     logout: ({ commit }) => {
         commit('setToken', null);
