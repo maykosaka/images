@@ -1,5 +1,5 @@
 const state = {
-    image: []
+    images: []
 };
 
 const getters = {
